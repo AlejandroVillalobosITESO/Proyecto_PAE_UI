@@ -2,17 +2,47 @@ section {
   font-family: 'Poppins', sans-serif;
 }
 
-#forum-info .forum-card {
-  background-color: #293340;
+.forum-card {
+  height: 200px;
+  background-color: #666666;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   max-width: 1280px;
   min-width: 480px;
   width: 90%;
   margin: auto;
-  color: #fff;
 }
 
-#forum-info .new-post {
+.forum-image {
+  vertical-align: middle;
+  border-radius: 50%;
+}
 
+.new-post {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f24444;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  max-width: 640px;
+  min-width: 480px;
+  width: 75%;
+  margin: auto;
+}
+
+.post-card {
+  justify-content: space-between;
+  max-width: 640px;
+  min-width: 480px;
+  width: 75%;
+  margin: auto;
+}
+
+.post-header-image {
+  background-size: cover;
+}
+
+.post-body-image {
+  max-width: 640px;
 }
