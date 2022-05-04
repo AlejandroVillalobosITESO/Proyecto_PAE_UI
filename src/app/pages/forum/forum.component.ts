@@ -20,6 +20,11 @@ export interface Forums {
   description: string;
   img: string;
 }
+
+export interface Comments {
+  content: string;
+  user: Users;
+}
 //HASTA ACA
 
 @Component({
@@ -55,7 +60,18 @@ export class ForumComponent implements OnInit {
         role: "user",
         role_color: "#000000"
       }
-    }
+    },
+    {
+      title: "Prueba3",
+      content: "a puro p*ndejo le gustan las peras",
+      img: "",
+      user: {
+        username: "usuario1",
+        profile_picture: "https://cdn-icons.flaticon.com/png/512/2202/premium/2202112.png?token=exp=1651551069~hmac=3aaeb22509dbd393f3970c3d7faf2b75",
+        role: "admin",
+        role_color: "#ff0000"
+      }
+    },
   ]
   //HASTA ACA
 
