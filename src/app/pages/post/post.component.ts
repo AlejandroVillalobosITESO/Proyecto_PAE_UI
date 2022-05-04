@@ -8,11 +8,7 @@ import {Comments, Forums, Posts} from "../forum/forum.component";
 })
 export class PostComponent implements OnInit {
 
-  forum: Forums = {
-    title: "Foro test", description: "Este es un foro de prueba", img: "https://cdn-icons-png.flaticon.com/512/2312/2312493.png"
-  }
-
-  post: Posts = {
+    post: Posts = {
     title: "Post prueba",
     content: "me gustan las manzanas",
     img: "https://cdn.aarp.net/content/dam/aarp/health/healthy-living/2017/09/1140-3-reasons-apples-good-for-you-esp.jpg",

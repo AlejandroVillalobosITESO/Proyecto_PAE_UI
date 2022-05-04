@@ -35,7 +35,9 @@ export interface Comments {
 export class ForumComponent implements OnInit {
   //CAMBIAR ESTO
   forum: Forums = {
-    title: "Foro test", description: "Este es un foro de prueba", img: "https://cdn-icons-png.flaticon.com/512/2312/2312493.png"
+    title: "NombreForo",
+    description: "Aqui va la descripcion del foro. Este es un foro de prueba.",
+    img: "https://cdn-icons-png.flaticon.com/512/2312/2312493.png"
   }
 
   posts: Posts[] = [

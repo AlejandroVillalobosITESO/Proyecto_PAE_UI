@@ -14,9 +14,24 @@ section {
   margin: auto;
 }
 
+.forum-card-content {
+  display: flex;
+  margin: auto;
+}
+
+.forum-card-text {
+
+}
+
+.forum-card-button {
+  display: flex;
+  margin: auto;
+}
+
 .forum-image {
   vertical-align: middle;
   border-radius: 50%;
+  padding: 15px;
 }
 
 .new-post {
