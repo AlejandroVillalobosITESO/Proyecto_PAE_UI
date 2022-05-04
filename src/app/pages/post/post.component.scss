@@ -46,3 +46,15 @@ section {
 .post-body-image {
   max-width: 640px;
 }
+
+.comment-card {
+  justify-content: space-between;
+  max-width: 640px;
+  min-width: 480px;
+  width: 75%;
+  margin: auto;
+}
+
+.comment-header-image {
+  background-size: cover;
+}

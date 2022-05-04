@@ -27,7 +27,7 @@
   <div class="comment-card">
     <mat-card   *ngFor="let comment of comments">
       <mat-card-header>
-        <div mat-card-avatar class="post-header-image" style="background-image: url({{comment.user.profile_picture}})"></div>
+        <div mat-card-avatar class="comment-header-image" style="background-image: url({{comment.user.profile_picture}})"></div>
         <mat-card-title>{{comment.user.username}}</mat-card-title>
         <mat-card-subtitle style="color: {{comment.user.role_color}}">{{comment.user.role}}</mat-card-subtitle>
       </mat-card-header>

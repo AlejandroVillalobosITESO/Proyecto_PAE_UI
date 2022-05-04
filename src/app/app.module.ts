@@ -15,7 +15,6 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LoginSuccesComponent } from './pages/login-succes/login-succes.component';
-import { ProfileComponent } from './pages/profile/profile.component';
 import { ForumComponent } from './pages/forum/forum.component';
 import { NewForumComponent } from './pages/new-forum/new-forum.component';
 import { PostComponent } from './pages/post/post.component';
@@ -30,7 +29,6 @@ import { NewPostComponent } from './pages/new-post/new-post.component';
     LoginComponent,
     RegisterComponent,
     LoginSuccesComponent,
-    ProfileComponent,
     ForumComponent,
     NewForumComponent,
     PostComponent,
